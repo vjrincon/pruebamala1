@@ -1,0 +1,19 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int a,b,fact;
+
+main()
+{
+    cout <<"1\t2\t3\t4\t5\t6\t7\t8\t9\t10 " <<endl<<endl;
+    for(int i=1; i<=10; i++)
+		{
+			for(int c=1; c<=10; c++)
+				{
+					cout <<c*i<<"\t";
+				}
+				//cout <<endl;
+		}
+   
+}
